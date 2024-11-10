@@ -1,0 +1,268 @@
+import { Course } from '../types';
+
+export const COURSES: Course[] = [
+  {
+    id: '1',
+    title: 'Multifamily Investment Fundamentals',
+    description: 'Learn the basics of multifamily real estate investing, from market analysis to deal evaluation.',
+    duration: '6 hours',
+    students: 1240,
+    rating: 4.8,
+    level: 'Beginner',
+    price: 199,
+    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80',
+    instructor: {
+      name: 'Michael Anderson',
+      title: 'Real Estate Investment Strategist',
+      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80',
+      bio: '15+ years of experience in multifamily real estate investment and portfolio management.',
+    },
+    modules: [
+      {
+        id: 'm1',
+        title: 'Introduction to Multifamily Investing',
+        duration: '45 minutes',
+        lessons: [
+          {
+            id: 'l1',
+            title: 'Why Invest in Multifamily Properties',
+            duration: '15 minutes',
+            type: 'video',
+          },
+          {
+            id: 'l2',
+            title: 'Understanding Market Cycles',
+            duration: '20 minutes',
+            type: 'video',
+          },
+          {
+            id: 'l3',
+            title: 'Module 1 Quiz',
+            duration: '10 minutes',
+            type: 'quiz',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: '2',
+    title: 'Advanced Deal Analysis',
+    description: 'Master the art of evaluating multifamily deals with sophisticated financial modeling and due diligence.',
+    duration: '8 hours',
+    students: 856,
+    rating: 4.9,
+    level: 'Advanced',
+    price: 299,
+    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80',
+    instructor: {
+      name: 'Sarah Chen',
+      title: 'Investment Analysis Director',
+      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80',
+      bio: 'Former investment banker with expertise in multifamily acquisitions and financial modeling.',
+    },
+    modules: [
+      {
+        id: 'm1',
+        title: 'Advanced Financial Modeling',
+        duration: '60 minutes',
+        lessons: [
+          {
+            id: 'l1',
+            title: 'Building Complex Pro Formas',
+            duration: '25 minutes',
+            type: 'video',
+          },
+          {
+            id: 'l2',
+            title: 'Sensitivity Analysis',
+            duration: '25 minutes',
+            type: 'video',
+          },
+          {
+            id: 'l3',
+            title: 'Practice Assignment',
+            duration: '10 minutes',
+            type: 'assignment',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: '3',
+    title: 'Market Research Mastery',
+    description: 'Learn how to analyze markets, identify growth opportunities, and predict emerging trends.',
+    duration: '5 hours',
+    students: 723,
+    rating: 4.7,
+    level: 'Intermediate',
+    price: 249,
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80',
+    instructor: {
+      name: 'David Martinez',
+      title: 'Market Research Analyst',
+      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80',
+      bio: 'Specializes in market research and demographic analysis for major real estate investment firms.',
+    },
+    modules: [
+      {
+        id: 'm1',
+        title: 'Market Analysis Fundamentals',
+        duration: '50 minutes',
+        lessons: [
+          {
+            id: 'l1',
+            title: 'Demographic Analysis',
+            duration: '20 minutes',
+            type: 'video',
+          },
+          {
+            id: 'l2',
+            title: 'Economic Indicators',
+            duration: '20 minutes',
+            type: 'video',
+          },
+          {
+            id: 'l3',
+            title: 'Knowledge Check',
+            duration: '10 minutes',
+            type: 'quiz',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: '4',
+    title: 'Property Management Excellence',
+    description: 'Master the essentials of effective multifamily property management and operations.',
+    duration: '7 hours',
+    students: 945,
+    rating: 4.8,
+    level: 'Intermediate',
+    price: 279,
+    image: 'https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&q=80',
+    instructor: {
+      name: 'Rachel Thompson',
+      title: 'Property Management Director',
+      image: 'https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?auto=format&fit=crop&q=80',
+      bio: '20+ years of experience managing large multifamily portfolios and optimizing operations.',
+    },
+    modules: [
+      {
+        id: 'm1',
+        title: 'Operational Excellence',
+        duration: '55 minutes',
+        lessons: [
+          {
+            id: 'l1',
+            title: 'Staff Management',
+            duration: '20 minutes',
+            type: 'video',
+          },
+          {
+            id: 'l2',
+            title: 'Tenant Relations',
+            duration: '25 minutes',
+            type: 'video',
+          },
+          {
+            id: 'l3',
+            title: 'Case Study',
+            duration: '10 minutes',
+            type: 'assignment',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: '5',
+    title: 'Value-Add Strategies',
+    description: 'Learn proven strategies for increasing property value through strategic improvements and management.',
+    duration: '6.5 hours',
+    students: 678,
+    rating: 4.9,
+    level: 'Advanced',
+    price: 329,
+    image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&q=80',
+    instructor: {
+      name: 'James Wilson',
+      title: 'Value-Add Investment Specialist',
+      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80',
+      bio: 'Successfully executed over $500M in value-add multifamily projects across major markets.',
+    },
+    modules: [
+      {
+        id: 'm1',
+        title: 'Value-Add Fundamentals',
+        duration: '45 minutes',
+        lessons: [
+          {
+            id: 'l1',
+            title: 'Identifying Opportunities',
+            duration: '20 minutes',
+            type: 'video',
+          },
+          {
+            id: 'l2',
+            title: 'ROI Analysis',
+            duration: '15 minutes',
+            type: 'video',
+          },
+          {
+            id: 'l3',
+            title: 'Project Planning',
+            duration: '10 minutes',
+            type: 'assignment',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: '6',
+    title: 'Multifamily Financing Strategies',
+    description: 'Comprehensive guide to financing options, loan structures, and capital stack optimization.',
+    duration: '7.5 hours',
+    students: 534,
+    rating: 4.7,
+    level: 'Advanced',
+    price: 299,
+    image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80',
+    instructor: {
+      name: 'Robert Chang',
+      title: 'Commercial Real Estate Finance Expert',
+      image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80',
+      bio: 'Former commercial real estate banker with expertise in structured finance and capital markets.',
+    },
+    modules: [
+      {
+        id: 'm1',
+        title: 'Financing Fundamentals',
+        duration: '50 minutes',
+        lessons: [
+          {
+            id: 'l1',
+            title: 'Loan Types and Terms',
+            duration: '20 minutes',
+            type: 'video',
+          },
+          {
+            id: 'l2',
+            title: 'Capital Stack Structure',
+            duration: '20 minutes',
+            type: 'video',
+          },
+          {
+            id: 'l3',
+            title: 'Financial Analysis',
+            duration: '10 minutes',
+            type: 'quiz',
+          },
+        ],
+      },
+    ],
+  },
+];
